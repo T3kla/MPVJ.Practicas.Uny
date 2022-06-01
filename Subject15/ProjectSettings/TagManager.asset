@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bolo
+  - Pala/Left
+  - Pala/Right
   layers:
   - Default
   - TransparentFX

@@ -1,15 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class MainMenu : MonoBehaviour
 {
 
-    public void Play()
+    public void LoadScene(string value)
     {
-        SceneManager.LoadScene("Bolo");
+        SceneManager.LoadScene(value);
     }
 
     public void Exit()

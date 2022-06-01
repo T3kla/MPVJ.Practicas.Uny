@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Game : MonoBehaviour
+public class BoloGame : MonoBehaviour
 {
 
     [Header("Game")]
@@ -44,8 +44,8 @@ public class Game : MonoBehaviour
         // If player press space, add force to bola
         if (Input.GetKeyDown(KeyCode.Space))
         {
-           BolaRB.AddForce(Vector3.forward * BolaSpeed, ForceMode.Impulse);
-           BolaRB.AddTorque(Vector3.right * BolaSpeed, ForceMode.Impulse);
+            BolaRB.AddForce(Vector3.forward * BolaSpeed, ForceMode.Impulse);
+            BolaRB.AddTorque(Vector3.right * BolaSpeed, ForceMode.Impulse);
         }
     }
 
