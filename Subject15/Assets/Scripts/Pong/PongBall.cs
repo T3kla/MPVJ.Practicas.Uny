@@ -17,7 +17,8 @@ public class PongBall : MonoBehaviour
 
     private void OnCollisionEnter(Collision col)
     {
-        Debug.Log("a");
+        Debug.Log($"Bola collides with + {col.gameObject.name}"); ; ;
+
         var pala = col.gameObject.GetComponent<PongPalaBase>();
 
         if (pala)

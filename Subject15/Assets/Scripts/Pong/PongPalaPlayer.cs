@@ -3,7 +3,6 @@ using UnityEngine;
 public class PongPalaPlayer : PongPalaBase
 {
 
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
